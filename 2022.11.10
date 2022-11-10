@@ -41,3 +41,24 @@ int main()
 	printf("3:%s %d %lf\n", ps->name, ps->age, ps->score);
 	return 0;
 }
+
+
+//比较两个整数大小（if语句）
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int a=0;
+	int b=0;
+	scanf("%d %d",&a,&b);
+	if (a - b > 0)
+	{
+		printf("%d\n", a);
+	}
+	else 
+	{
+		printf("%d\n", b);
+	}
+	return 0;
+}
+
